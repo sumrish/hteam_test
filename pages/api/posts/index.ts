@@ -14,6 +14,14 @@ const postsHandler = Validate({
       res.status(500).send('error')
     }
   },
+  
+  
+  
+  
+  
+  
+  
+  
   async post(req, res) {
     try {
       const body: IPost = req.body
